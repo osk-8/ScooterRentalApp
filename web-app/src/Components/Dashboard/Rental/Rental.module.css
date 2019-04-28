@@ -1,0 +1,33 @@
+.rental-map:first-child {
+  position: relative !important;
+  height: 89vh !important;
+}
+
+.description-on-top {
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  z-index: 100;
+
+  font-size: 1.3rem;
+  font-weight: 450;
+  padding: 0.5rem;
+  color: #424040;
+  background-color: rgb(236, 233, 233);
+  border: 0.3rem solid white;
+}
+
+.rent-button {
+  width: 100%;
+  background: rgb(236, 233, 233);
+  border: 0.2vw solid #424040;
+  padding: 0.5vw;
+  font-size: 1.3rem;
+  color: #424040;
+  cursor: pointer;
+  margin: 1vw 0;
+}
+
+.start-rent-button:hover {
+  border: 0.2vw solid white;
+}

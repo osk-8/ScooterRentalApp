@@ -1,0 +1,35 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #222121;
+  border-bottom: 0.15rem solid #424040;
+}
+
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-buttons a {
+  text-decoration: none;
+  color: #c4c2c2;
+}
+
+.navbar-buttons a:hover {
+  color: white;
+}
+
+.nav-links {
+  margin: 2vh;
+}
+
+.nav-logo {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.nav-logo h1 {
+  margin: 0;
+  padding: 2vh;
+}

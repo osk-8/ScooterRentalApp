@@ -1,0 +1,60 @@
+.edit-form {
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+
+.edit-header {
+  float: left;
+  font-size: 2rem;
+  font-weight: 500;
+  border-bottom: 0.3rem solid #000000;
+  margin-bottom: 2vw;
+  margin-left: 3vw;
+  padding: 0.1vw 0;
+}
+
+.edit-input-area {
+  width: 100%;
+  overflow: hidden;
+  font-size: 1rem;
+  padding: 0.5vw 0;
+  margin: 0.5vw 0;
+  border-bottom: 0.2vw solid #000000;
+}
+
+.edit-input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.edit-button {
+  width: 100%;
+  background: none;
+  border: 0.2vw solid #000000;
+  padding: 1vw;
+  font-size: 1rem;
+  color: black;
+  cursor: pointer;
+  margin: 1vw 0;
+}
+
+.edit-delete-button {
+  position: absolute;
+  top: 73.5%;
+  left: 84%;
+  transform: translate(-50%, -50%);
+
+  width: 15%;
+  background: none;
+  border: 0.2vw solid #000000;
+  padding: 1vw;
+  font-size: 1rem;
+  color: black;
+  cursor: pointer;
+  margin: 1vw 0;
+}

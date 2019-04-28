@@ -1,0 +1,173 @@
+.wallet-balance-header {
+  float: left;
+  font-size: 2rem;
+  font-weight: 500;
+  border-bottom: 0.3rem solid #000000;
+  margin-bottom: 2vw;
+  margin-left: 3vw;
+  padding: 0.1vw 0;
+}
+
+.wallet-balance-amount {
+  float: left;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2vw;
+  margin-left: 1vw;
+  padding: 0.1vw 0;
+}
+
+.wallet-prepaid-form {
+  position: absolute;
+  top: 50%;
+  left: 55.5%;
+  transform: translate(-50%, -50%);
+}
+
+.wallet-prepaid-input-area {
+  width: 100%;
+  overflow: hidden;
+  font-size: 1rem;
+  padding: 0.5vw 0;
+  margin: 0.5vw 0;
+  border-bottom: 0.2vw solid #000000;
+}
+
+.wallet-prepaid-input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1rem;
+}
+
+.wallet-prepaid-button {
+  width: 100%;
+  background: none;
+  border: 0.2vw solid #000000;
+  padding: 1vw;
+  font-size: 1rem;
+  color: black;
+  cursor: pointer;
+}
+
+.wallet-delete-card {
+  position: absolute;
+  top: 90%;
+  left: 55.5%;
+  transform: translate(-50%, -50%);
+}
+
+.wallet-delete-card h3 {
+  margin: 0;
+}
+
+.wallet-delete-button {
+  width: 100%;
+  background: none;
+  border: 0.2vw solid #000000;
+  padding: 1vw;
+  font-size: 1rem;
+  color: black;
+  cursor: pointer;
+  margin: 1vw 0;
+}
+
+/* ////////////////////////////////////////////////////// */
+
+.wallet-add-card-form {
+  position: absolute;
+  top: 57%;
+  left: 55.5%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+}
+
+.wallet-add-card-form-border {
+  padding: 4% 8% 4% 8%;
+  border: 0.2vw solid #353333;
+  border-radius: 20px;
+}
+
+.wallet-add-card-input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.3rem;
+}
+
+.wallet-add-card-input-area-number {
+  width: 100%;
+  font-size: 1.3rem;
+  overflow: hidden;
+  padding: 0vw 0;
+  border-bottom: 0.2vw solid #000000;
+}
+
+.wallet-add-card-input-area-expiration {
+  width: 100%;
+  font-size: 1.3rem;
+  overflow: hidden;
+  padding: 0vw 0;
+  border-bottom: 0.2vw solid #000000;
+}
+
+.wallet-add-card-input-area-csc {
+  width: 100%;
+  font-size: 1.3rem;
+  overflow: hidden;
+  padding: 0vw 0;
+  border-bottom: 0.2vw solid #000000;
+}
+
+.wallet-add-card-button {
+  width: 100%;
+  background: none;
+  border: 0.2vw solid #000000;
+  margin-top: 4vw;
+  padding: 1vw;
+  font-size: 1.3rem;
+  color: black;
+  cursor: pointer;
+}
+
+.wallet-add-card-row-second {
+  display: flex;
+  justify-content: space-between;
+  margin: 1vw;
+}
+
+.wallet-add-card-row-second-expiration {
+  width: 40%;
+}
+
+.wallet-add-card-row-second-expiration-input {
+  display: flex;
+  width: 100%;
+}
+
+.wallet-add-card-row-second-expiration-input h1 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.wallet-add-card-row-second-csc {
+  width: 30%;
+}
+
+.wallet-add-card-input-error {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem;
+  width: 100%;
+}
+
+.wallet-add-card-expiration-input {
+  margin: 0;
+  padding: 0;
+  width: 30%;
+}
+
+.wallet-add-card-label {
+  text-transform: uppercase;
+  font-weight: 350;
+}

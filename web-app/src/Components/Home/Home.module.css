@@ -1,0 +1,64 @@
+.home-image {
+  margin-top: 5.5%;
+  width: 100%;
+  height: 43vw;
+  object-fit: cover;
+}
+
+.home-image-header {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 8%;
+  text-align: center;
+  color: white;
+  font-size: 3.2rem;
+}
+
+.home-image-text {
+  position: absolute;
+  left: 75%;
+  top: 85%;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.home-locations-header {
+  margin-top: 10%;
+  text-align: center;
+  font-size: 3.2rem;
+}
+
+.home-article-text {
+  margin-bottom: 10%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.home-footer {
+  margin-top: 46%;
+  padding: 5vw;
+  text-align: left;
+  background-color: #fefefe;
+  display: flex;
+}
+
+.home-footer-text {
+  margin-top: 5%;
+  font-weight: 500;
+  text-align: center;
+}
+
+.home-footer-image {
+  width: 13%;
+  height: 13%;
+  margin-left: 40%;
+}
+
+.home-footer-description {
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 5% 0 0 5%;
+}
